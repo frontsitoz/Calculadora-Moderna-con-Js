@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     background-color: #ecf0f3;
-    font-family: sans-serif;
+    font-family: fantasy;
     outline: none;
 }
 
@@ -12,12 +12,14 @@ display: flex;
 justify-content:center;
 margin-top: 100px;
 font-size: 3rem;
-color: gray;
+color: #bdbdbd;
 text-align: center;
+font-family:'Trebuchet MS',sans-serif;
+
 }
 
 .container {
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,12 +58,25 @@ button {
     border: none;
     margin: 10px;
     font-size: 15px;
-    cursor: pointer;
+  
+}
+
+button:hover{
+    background-color: #32fea7;
+    transition: 0.5s;
 }
 
 .equal {
     width: 110px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(246, 154, 42, 0.16);
-    background-color: burlywood;
+    background-color: #32fea7;
+}
+
+@media (min-width: 768px){
+#title{
+    font-size:2.8rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 }
